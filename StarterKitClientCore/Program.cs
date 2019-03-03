@@ -15,6 +15,7 @@ namespace StarterKitClientCore
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
+            string test="TEST";
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
